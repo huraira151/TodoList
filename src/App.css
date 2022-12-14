@@ -7,14 +7,28 @@
 }
 
 .checkbox {
-  font-size: larger;
-  border: 1px solid;
+  /* font-size: larger; */
+  /* border: 1px solid; */
   margin-right: 7px;
 }
 
-.checkbox.check {
-  color: green;
+.complete {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: #fff;
+  background: green;
+  padding: 16px;
+  border-radius: 10px;
+  width: 90%;
+  /* text-decoration: line-through; */
+  /* opacity: 0.8; */
 }
+
+/* .checkbox.check {
+  color: green;
+} */
 
 .error {
   color: red;
@@ -45,20 +59,6 @@ h1 {
   margin: 32px 0;
   color: #fff;
   font-size: 24px;
-}
-
-.complete {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 4px auto;
-  color: #fff;
-  background: green;
-  padding: 16px;
-  border-radius: 10px;
-  width: 90%;
-  /* text-decoration: line-through; */
-  /* opacity: 0.8; */
 }
 
 .todo-form {
